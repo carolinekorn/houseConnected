@@ -1,0 +1,438 @@
+/* retirada a margem da página geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* definada a cor de fundo e a fonte     */
+body {
+    font-family: "quicksand", "mulish", "questrial", "helvetica";
+    background-color: #EEEEEE;
+}
+/* definição do tamanho do background do cabeçalho */
+header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 750px;
+    font-size: 250%;
+    font-weight: 400;
+    color: #211A70;
+}
+/* definição do tamanho e fonte das sessão da página index */
+.flex-item {
+    background-color: rgb(149, 165, 216);
+    width: 32%;
+    height: 720px;
+    margin: 9px;
+    border-radius: 2%;
+}
+
+.flex-container {
+    display: flex;
+    /*para colocar os itens lado a lado*/
+    flex-wrap: wrap;
+    width: 98%;
+    margin: auto;
+    margin-top: 12px;
+    height: 760px;
+    justify-content: center;
+    /*define o alinhamento dos itens ao longo do eixo principal*/
+    align-items: center;
+    /*define o alinhamento dos itens no eixo da horizontal*/
+}
+/* tamanho da imagem da capa */
+#capa {
+    width: 99.5%;
+    height: 700px;
+    margin-left: 2px;
+}
+
+#IOT {
+    width: 40%;
+    height: 200px;
+    border-radius: 45%;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.tituloBox {
+    font-size: 150%;
+    font-weight: 700;
+    color: #211A70;
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.corpoTexto {
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #211A70;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 120%;
+}
+
+#SmartHome {
+    width: 40%;
+    height: 200px;
+    border-radius: 45%;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#Automação {
+    width: 40%;
+    height: 200px;
+    border-radius: 45%;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#listaNumerica {
+    margin-left: 40px;
+    margin-right: 30px;
+    color: #211A70;
+    text-align: justify;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 130%;
+}
+
+#tituloLista {
+    font-size: 150%;
+    font-weight: 500;
+    color: #211A70;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.tituloBox1 {
+    font-size: 170%;
+    font-weight: 600;
+    color: #211A70;
+    text-align: justify;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.tituloBox2 {
+    font-size: 150%;
+    font-weight: 600;
+    color: #211A70;
+    text-align: justify;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: rgb(149, 165, 216);
+    width: 100%;
+    height: 200px;
+}
+
+.navegacao {
+    display: flex;
+    /*para colocar os itens lado a lado*/
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120px;
+    List-style-type: none;
+    margin-top: 20px;
+}
+/* definição da fonte, cor e margem da lista da página de produtos */
+.lista {
+    color: #211A70;
+    font-size: 150%;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 105px;
+}
+
+h2 {
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 300%;
+    padding-top: 30px;
+}
+
+#tituloSite {
+    margin-top: 50px;
+}
+/* tamanho e cor da fonte do rodape */
+footer {
+    color: #211A70;
+    font-size: 80%;
+    width: 100%;
+    height: 40px;
+}
+
+.rodape {
+    width: 70%;
+    height: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 400px;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+#NavProdutos {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(149, 165, 216);
+}
+
+#TituloSite {
+    margin-top: 40px;
+    margin-left: 750px;
+    font-size: 250%;
+    font-weight: 400;
+    color: #211A70;
+}
+
+.navegacao2 {
+    display: flex;
+    /*para colocar os itens lado a lado*/
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120px;
+    List-style-type: none;
+    margin-top: 20px;
+    padding-left: 80px;
+}
+
+.lista2 {
+    color: #EEEEEE;
+    font-size: 200%;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 170px;
+    font-weight: 200;
+}
+
+#limpeza {
+    display: flex;
+    width: 80%;
+    margin-top: 160px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    color: #211A70;
+    padding-top: 70px;
+}
+/* dimensionar a imagem do limpador de vidros */
+#vidro {
+    width: 80%
+}
+/* dimensionar a imagem do robo aspirador */
+#roboAsp {
+    width: 60%
+}
+
+.produtosItem {
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.textoLista {
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 105%;
+    padding-top: 10px;
+    color: #211A70;
+}
+
+.valor {
+    margin: 10px;
+    font-size: 120%;
+}
+
+.botao {
+    background-color: rgb(149, 165, 216);
+    font-size: 120%;
+    width: 120px;
+    color: #211A70;
+}
+
+#cozinha {
+    display: flex;
+    width: 80%;
+    margin-top: 120px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    color: #211A70;
+}
+
+#geladeira {
+    width: 60%;
+}
+
+#fogao {
+    width: 70%;
+}
+
+#conforto {
+    display: flex;
+    width: 80%;
+    margin-top: 150px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    color: #211A70;
+    padding-top: 100px;
+}
+
+#cervejeira {
+    width: 60%;
+}
+
+#split {
+    width: 70%;
+}
+
+#boxAutomação {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #211A70;
+    background-color: rgb(149, 165, 216);
+    padding-left: 300px;
+}
+
+#itemAutomação {
+    width: 70%;
+    border-radius: 2%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.botao2 {
+    font-size: 150%;
+    width: 300px;
+    color: #211A70;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #EEEEEE;
+}
+
+.produtosItem2 {
+    width: 1000px;
+    margin-top: 30px;
+}
+
+#serviços {
+    color: #EEEEEE;
+    text-align: justify;
+    font-size: 150%;
+    padding-top: 10px;
+}
+/* estilização do botão de voltar ao topo da página */
+#voltar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#formContainer {
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: rgb(149, 165, 216);
+    border-width: 2px;
+    margin-left: 350px;
+    color: #211A70;
+}
+
+h3 {
+    margin-left: 60px;
+    font-size: 120%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#form2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nome {
+    margin-left: 20px;
+}
+
+#simNao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#dados {
+    margin-left: 30px;
+    line-height: 300%;
+    margin-bottom: 20px;
+}
+
+#news {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+#assunto {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+#limpar {
+    background-color: rgb(149, 165, 216);
+    font-size: 120%;
+    width: 120px;
+    color: #211A70;
+}
+
+#enviar {
+    background-color: rgb(149, 165, 216);
+    font-size: 120%;
+    width: 120px;
+    color: #211A70;
+}
+
+#botoes {
+    display: flex;
+    margin-top: 150px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
