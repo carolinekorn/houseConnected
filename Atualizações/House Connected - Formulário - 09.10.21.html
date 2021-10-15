@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Connected - Formulário</title>
+    <link rel="stylesheet" type="text/css" href="estiloHouseConnected - 09.10.21.css">
+</head>
+
+<body>
+    <header id=header>
+        <p id=p5></p>
+        <!--Cabeçalho do site com logo, descrição-->
+        <figure>
+            <a href="House Connected - Index - 09.10.21.html" target="_self"><img class=logo src="Imagens/logo.png"
+                    alt="LOGO"></a>
+        </figure>
+        <h1>O Conforto Inteligente</h1>
+        <nav id=NavProdutos>
+            <h2>Produtos Disponíveis</h2>
+            </p>
+            <UL class=navegacao2>
+                <!-- lista de itens para navegação -->
+                <li>
+                    <p class=lista2> <a class="textoLista"
+                            href="House Connected - Produtos - 09.10 .21.html#p1">Limpeza</a></p>
+                </li>
+                <li>
+                    <p class=lista2> <a class="textoLista"
+                            href="House Connected - Produtos - 09.10 .21.html#p2">Cozinha</a></p>
+                </li>
+                <li>
+                    <p class=lista2> <a class="textoLista"
+                            href="House Connected - Produtos - 09.10 .21.html#p3">Conforto</a></p>
+                </li>
+                <li>
+                    <p class=lista2><a class="textoLista"
+                            href="House Connected - Produtos - 09.10 .21.html#p4">Automação</a></p>
+                </li>
+            </UL>
+        </nav>
+    </header>
+    <!--formulário para cadastro no site-->
+    <form id="formContainer">
+        <legend>
+            <h3>CADASTRE-SE</h3>
+        </legend>
+        <div id=dados>
+            <label for="nome">
+                Nome:
+            </label>
+            <input type="text" id="">
+            </p>
+            <label for="e-mail">
+                E-mail:
+            </label>
+            <input type="email" id="email">
+            </p>
+            <label for="senha">
+                Senha:
+            </label>
+            <input type="password" id="senha">
+            </p>
+            <p>
+                <label for="dataNascimento">
+                    Data de Nascimento:
+                </label>
+                <input type="date" id="dataNascimento">
+            </p>
+            <!-- seletor de estado UF -->
+            <p>
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option> Selecione o Estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceara</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</optio>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais </option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina </option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </p>
+        </div>
+        <!-- escolha para receber o Newsletter -->
+        <fieldset id=news>
+            <legend>
+                <h4>Você gosta de novidade?</h4>
+            </legend>
+            <div id=simNao> 
+                <spam class=escolha><input type="radio" id="sim" name="simNao">SIM</spam>
+                <spam class=escolha><input type="radio" id="não" name="simNao">NÃO</spam>
+            </div>
+            <p>
+                <!--opções de assunto do newsletter-->
+                <label form="tipoSolução">
+                    <h4>Newsletter</h4>
+                </label>
+            <div id="assunto">
+                <spam class="assuntos"><input type="checkbox" name="tipoSolucao">Automação</spam>
+                <spam class="assuntos"><input type="checkbox" name="tipoSolucao">Serviços de TI</spam>
+                <spam class="assuntos"><input type="checkbox" name="tipoSolucao">Notícias de novas Tecnologias</spam>
+                <spam class="assuntos"> <input type="checkbox" name="tipoSolucao">Assuntos Diversos</spam>
+            </div>
+            </p>
+        </fieldset>
+        <div id=botoes>
+            <p>
+                <!--botão de limpar o formulário-->
+                <button class="botão4" type="reset">LIMPAR</button>
+            </p>
+            <p>
+                <!--botão de enviar o formulário-->
+                <button class="botão4" type="submit">ENVIAR</button>
+            </p>
+        </div>
+    </form>
+
+    <footer class="footerPrincipal">
+        <nav class="nav.footer">
+            <ul class="rodape">
+                <li>Home Conneted S/A - CNPJ: 00.000.000/0000-00</li>
+                <li>Endereço: Rua do Carinho, 527 - Parque Eldorado</li>
+                <li>Eldorado do Sul/RS - CEP 92.990-000</li>
+                <li>@2021 - Caroline Korndorfer - Todos os diretos reservados.</li>
+            </ul>
+        </nav>
+        <nav class="nav.footer">
+            <UL class="rodape2">
+                <!-- lista de itens para navegação -->
+                <p>Sobre Nós:</p>
+                <li><a class="textoLista" href="House Connected - Sobre Nós - 09.10.21.html#p1">Quem Somos Nós</a></li>
+                <li><a class="textoLista" href="House Connected - Sobre Nós - 09.10.21.html#p2">Política de Garantia</a>
+                </li>
+                <li><a class="textoLista" href="House Connected - Sobre Nós - 09.10.21.html#p3">Política de
+                        Privacidade</a></li>
+            </UL>
+        </nav>
+    </footer>
+</body>
+
+</html>

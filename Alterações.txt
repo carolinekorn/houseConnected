@@ -1,0 +1,29 @@
+- onde lincar a página principal com os produtos: conheça nossos produtos! entre a imagem e os boxes
+
+- formulário: joga no spam
+
+- carrinho
+
+- responsividade
+
+- formulário: como separar os itens radius e o checkbox?
+
+- acrescentar no footer: Quem somos nós, politica de troca
+
+- estilo do botão, arredondar, borda
+
+- colocar os produtos em background, tipo cinza; JS - onmouseover
+
+- diminuir os produtos para 2 por sessão para alinahr melhor;
+
+Oi Carol, Teu site está com as imagens quebradas... Não há a divisão do corpo do site passado... Footer, sem copy... Sem cor de fundo para distinguir... Header para navegação também não há... Só em uma página... De produtos... Refaz tudo... Aproveita o dia 11 e 12 para refazer... Bjos Márcia
+
+- acrescentar contato
+	
+- acrescentar um NAV no fooder com contato
+- amazon
+copyrigt <p>
+
+
+
+href: "xxx.html#p1"
